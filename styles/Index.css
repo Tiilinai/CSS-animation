@@ -92,12 +92,12 @@ h1 {
     background-color: rgba(192, 29, 29, 0.562);
     border-style: none;
     border-radius: 5px;
+    z-index: 2;
 }
 
 .last:hover {
-    transform: scale(2.3);
     background-color: red;
-    animation: infinite;
+    transform: scale(2.3);
 }
 
 
